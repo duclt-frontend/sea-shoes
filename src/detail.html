@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="//bizweb.dktcdn.net/100/369/492/themes/741260/assets/favicon.png?1594607980046"
+    type="image/x-icon">
+  <link rel="stylesheet" href="./assets/Library-min/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/Library-min/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./assets/Library-min/lineawesome/css/line-awesome.min.css">
+  <link rel="stylesheet" href="./assets/Library-min/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/Library-min/animate/animate.min.css">
+  <link rel="stylesheet" href="./assets/Library-min/hint/hint.min.css">
+  <link rel="stylesheet" href="./assets/Library-min/Lightbox/css/lc_lightbox.min.css">
+  <link rel="stylesheet" href="../dist/css/detail.css">
+  <title>Chi tiết</title>
+</head>
+
+<body>
+  <div class="root">
+    <header>
+      <div class="topheader">
+        <div class="container-ct">
+          <div class="row-ct">
+            <div class="topheader__contact col-ct">
+              <a href="">seateam2512@gmail.com</a>
+              <span>/</span>
+              <a href="">0123456789</a>
+            </div>
+            <div class="topheader__auth col-ct">
+              <a href="./signin.html">Đăng ký</a>
+              <span>/</span>
+              <a href="./login.html">Đăng nhập</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="container-ct">
+          <div class="row-ct">
+            <div class="header__icon col-ct">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="header__img col-ct">
+              <a href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+            <div class="header__menu col-ct">
+              <ul class="header__menu-list">
+                <li class="mlist__item">
+                  <a href="./index.html">Trang chủ</a>
+                </li>
+                <li class="mlist__item">
+                  <a href="./about.html">Giới thiệu</a>
+                </li>
+                <li class="mlist__item">
+                  <a href="./category.html">Sản phẩm <i class="fas fa-sort-down"></i></a>
+                  <ul class="mlist__item-submenu">
+                    <li>
+                      <a href="./category.html">Giày Training & Gym </a>
+                    </li>
+                    <li>
+                      <a href="./category.html">Giày Basketball </a>
+                    </li>
+                    <li>
+                      <a href="./category.html">Giày Running </a>
+                    </li>
+                    <li>
+                      <a href="./category.html">Giày Jodan </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mlist__item">
+                  <a href="./news.html">Tin tức</a>
+                </li>
+                <li class="mlist__item">
+                  <a href="./contact.html">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__act col-ct">
+              <div class="header__act-search">
+                <i class="fas fa-search"></i>
+                <div class="hsearch">
+                  <input type="text" placeholder="Tìm kiếm...">
+                  <a href="./search.html">
+                    <i class="fas fa-search"></i></a>
+                </div>
+              </div>
+              <div class="header__act-cart">
+                <a href="./cart.html" class="cart-icon"> <img src="./assets/images/shopping-bag.svg" alt="">
+                  <span class="total-product">4</span>
+                </a>
+                <div class="cart">
+                  <div class="cart__list">
+                    <div class="cart__list-item">
+                      <div class="clitem__img">
+                        <a href="./detail.html"><img src="./assets/images/1.jpg" alt=""></a>
+                      </div>
+                      <div class="clitem__infor">
+                        <div class="clitem__infor-head">
+                          <a href="./detail.html" title="Adidas Originals Blue CAMPUS">Adidas Originals Blue CAMPUS</a>
+                        </div>
+                        <div class="clitem__infor-price">
+                          2.500.000₫
+                        </div>
+                        <div class="clitem__infor-number">
+                          <span class="num-decrease">-</span>
+                          <input type="number" value="1">
+                          <span class="num-increase">+</span>
+                        </div>
+                      </div>
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="cart__list-item">
+                      <div class="clitem__img">
+                        <a href=""><img src="./assets/images/2.jpg" alt=""></a>
+                      </div>
+                      <div class="clitem__infor">
+                        <div class="clitem__infor-head">
+                          <a href="" title="Adidas Originals Blue CAMPUS">Adidas Originals Blue CAMPUS</a>
+                        </div>
+                        <div class="clitem__infor-price">
+                          2.500.000₫
+                        </div>
+                        <div class="clitem__infor-number">
+                          <span class="num-decrease">-</span>
+                          <input type="number" value="1">
+                          <span class="num-increase">+</span>
+                        </div>
+                      </div>
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="cart__list-item">
+                      <div class="clitem__img">
+                        <a href=""><img src="./assets/images/3.jpg" alt=""></a>
+                      </div>
+                      <div class="clitem__infor">
+                        <div class="clitem__infor-head">
+                          <a href="" title="Adidas Originals Blue CAMPUS">Adidas Originals Blue CAMPUS</a>
+                        </div>
+                        <div class="clitem__infor-price">
+                          2.500.000₫
+                        </div>
+                        <div class="clitem__infor-number">
+                          <span class="num-decrease">-</span>
+                          <input type="number" value="1">
+                          <span class="num-increase">+</span>
+                        </div>
+                      </div>
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="cart__list-item">
+                      <div class="clitem__img">
+                        <a href=""><img src="./assets/images/4.jpg" alt=""></a>
+                      </div>
+                      <div class="clitem__infor">
+                        <div class="clitem__infor-head">
+                          <a href="" title="Adidas Originals Blue CAMPUS">Adidas Originals Blue CAMPUS</a>
+                        </div>
+                        <div class="clitem__infor-price">
+                          2.500.000₫
+                        </div>
+                        <div class="clitem__infor-number">
+                          <span class="num-decrease">-</span>
+                          <input type="number" value="1">
+                          <span class="num-increase">+</span>
+                        </div>
+                      </div>
+                      <i class="fas fa-times"></i>
+                    </div>
+                  </div>
+                  <div class="cart__total">
+                    <span>Tổng cộng</span>
+                    <span class="cart__total-money">8.200.000₫</span>
+                  </div>
+                  <div class="cart__btn">
+                    <a href="./cart.html" class="cart__btn-cart">Giỏ hàng</a>
+                    <a href="./payment.html" class="cart__btn-pay">Thanh toán</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="wrap">
+
+        </div>
+        <div class="navbars">
+          <div class="navbars__img">
+            <a href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+          </div>
+          <div class="navbars__list">
+            <ul class="navbars__list-menu">
+              <li class="nlmenu__item">
+                <span><a href="./index.html">Trang chủ</a></span></li>
+              <li class="nlmenu__item"><span><a href="./about.html">Giới thiệu</a></span></li>
+              <li class="nlmenu__item">
+                <span>
+                  <a href="./category.html">Sản phẩm</a><i class="fas fa-plus"></i><i class="fas fa-minus"></i>
+                </span>
+                <ul>
+                  <li><a href="./category.html">Giày Training & Gym</a></li>
+                  <li><a href="./category.html">Giày Basketball</a></li>
+                  <li><a href="">Giày Running</a></li>
+                  <li><a href="">Giày Jodan</a></li>
+                </ul>
+              </li>
+              <li class="nlmenu__item"><span><a href="./news.html">Tin tức</a></span></li>
+              <li class="nlmenu__item">
+                <span><a href="./contact.html">Liên hệ</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="breadcrumbs">
+      <div class="container-ct">
+        <div class="row-ct">
+          <h3>Adidas White Stan Smith</h3>
+          <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li>/</li>
+            <li><a href="">Trẻ em</a></li>
+            <li>/</li>
+            <li><span>Adidas White Stan Smith</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="product-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog popup modal-dialog-centered " role="document">
+        <div class="modal-content">
+          <div class="popup__infor">
+            <div class="popup__infor-img">
+              <div class="popup__head-left">
+                <i class="fas fa-check"></i>Bạn vừa thêm sản phẩm vào giỏ hàng
+              </div>
+              <img src="./assets/images/1.jpg" alt="">
+              <span>Adidas NEO Men Black VS</span>
+              <p>2.500.000đ</p>
+            </div>
+            <div class="popup__infor-price">
+              <div class="popup__head-left">
+                <i class="fas fa-shopping-basket"></i>Giỏ hàng của bạn có <span>8</span> sản phẩm
+              </div>
+              <div class="price-title">
+                Tổng tiền
+              </div>
+              <div class="price-price">
+                13.900.000đ
+              </div>
+              <div class="price-btn">
+                <a href="./cart.html">
+                  <i class="fas fa-shopping-basket"></i>
+                  Tới giỏ hảng
+                </a>
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-times close" data-dismiss="modal" aria-label="Close"></i>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="container-ct">
+        <div class="row-ct">
+          <div class="detail__img col-ct">
+            <div class="detail__img-main">
+              <a class="elem" href="./assets/images/1.jpg" data-lcl-thumb="./assets/images/1.jpg">
+                <img src="./assets/images/1.jpg" alt="">
+              </a>
+              <a class="elem elem-none" href="./assets/images/2.jpg" data-lcl-thumb="./assets/images/2.jpg">
+                <img src="./assets/images/2.jpg" alt="">
+              </a>
+              <a class="elem elem-none" href="./assets/images/3.jpg" data-lcl-thumb="./assets/images/3.jpg">
+                <img src="./assets/images/3.jpg" alt="">
+              </a>
+              <a class="elem elem-none" href="./assets/images/4.jpg" data-lcl-thumb="./assets/images/4.jpg">
+                <img src="./assets/images/4.jpg" alt="">
+              </a>
+            </div>
+            <div class="detail__img-thumb">
+              <i class="fas fa-angle-left prev-big-img animate__animated animate__fadeInLeft"></i>
+              <div class="swiper-container swiper-thumb">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/images/1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/2.jpg" alt="">
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/3.jpg" alt="">
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <i class="fas fa-angle-right  next-big-img animate__animated animate__fadeInLeft"></i>
+            </div>
+          </div>
+          <div class="detail__infor col-ct">
+            <div class="detail__infor-head">
+              Adidas White Stan Smith
+            </div>
+            <div class="detail__infor-branch">
+              <div class="branch">
+                <span>Thương hiệu:</span>
+                <span>Adidas</span>
+              </div>
+              <div class="branch">
+                <span>Mã sản phẩm:</span>
+                <span>LTD123</span>
+              </div>
+            </div>
+            <div class="detail__infor-describle">
+              Mô tả đang cập nhật
+            </div>
+            <div class="detail__infor-price">
+              2.500.000₫
+            </div>
+            <div class="detail__infor-size">
+              <div class="size-head">Kích thước</div>
+              <div class="size-list">
+                <input type="radio" name="size" checked>
+                <label>35</label>
+                <input type="radio" name="size">
+                <label>36</label>
+                <input type="radio" name="size">
+                <label>37</label>
+              </div>
+            </div>
+
+            <div class="detail__infor-size detail__infor-color">
+              <div class="size-head">Màu sắc</div>
+              <div class="size-list">
+                <input type="radio" name="color" checked>
+                <label id="white" class="hint--top" aria-label="Trắng!"></label>
+                <input type="radio" name="color">
+                <label id="black" class="hint--top" aria-label="Đen"></label>
+              </div>
+            </div>
+            <div class="detail__infor-number">
+              <div class="number-count">
+                <span class="num-decrease"><i class="fas fa-minus"></i></span>
+                <input type="number" value="1">
+                <span class="num-increase"><i class="fas fa-plus"></i></span>
+              </div>
+              <div class="number-btn">
+                <a data-toggle="modal" data-target="#product-popup"><i class="fas fa-shopping-basket"></i> Mua ngay</a>
+              </div>
+            </div>
+            <div class="detail__infor-hotline">
+              <div class="hotline-number">
+                <span>Tư vấn</span>
+                <a href="">0123456789</a>
+              </div>
+              <div class="hotline-pay">
+                <img src="./assets/images/payment.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="container-ct">
+        <img src="./assets/images/bg_product_col.jpg" alt="">
+      </div>
+    </div>
+    <div class="tab">
+      <div class="container-ct">
+        <div class="tab__head">
+          <div class="tab__head-1 tab__head-select">Thông tin sản phẩm</div>
+          <div class="tab__head-2">Chính sách bán hàng</div>
+          <div class="tab__head-3">Đánh giá</div>
+        </div>
+        <div class="tab__content-1 animate__animated animate__fadeInUp">
+          <h2>Adidas White Stan Smith</h2>
+          <p>Adidas quay trở lại với bước đột phá hoàn toàn mới bằng một phiên bản nâng cao hơn .<br>Để tăng tuổi thọ
+            của đôi giày, Adidas sử dụng da lộn cao cấp phía mũi giày và sau gót, giày Adidas trở nên chắc chắn hơn bao
+            giờ hết. Bộ đế cao su lưu hóa mang đến cho bạn cảm giác choáng ngợp bởi sự chắc chắn khi đi giày. </p>
+          <p>Hơn nữa với kiểu dáng hợp thời trang, màu sắc nhã nhặn bạn có thể đi bất cứ đâu, mặc trang phục gì đều
+            khiến mình trở nên nổi bật và tự tin. Hẳn là một thiếu sót lớn khi trong tủ giày nhà bạn thiếu đi đôi giày
+            Adidas .</p>
+          <p>Hơn nữa với kiểu dáng hợp thời trang, màu sắc nhã nhặn bạn có thể đi bất cứ đâu, mặc trang phục gì đều
+            khiến mình trở nên nổi bật và tự tin. Hẳn là một thiếu sót lớn khi trong tủ giày nhà bạn thiếu đi đôi giày
+            Adidas .</p>
+        </div>
+        <div class="tab__content-2 animate__animated animate__fadeInUp">
+          <p>Nội dung viết ở đây</p>
+        </div>
+        <div class="tab__content-3 animate__animated animate__fadeInUp">
+          <div class="comment">
+
+            <div class="news__comment">
+              <div class="news__comment-head">
+                Đánh giá sản phẩm
+              </div>
+              <div class="new__comment-form">
+                <form action="" class="form">
+                  <div class="form-item">
+                    <label for="">Nội dung <span>*</span></label>
+                    <textarea cols="30" rows="10">Nội dung liên hệ</textarea>
+                  </div>
+                  <div class="form-top">
+                    <div class="form-item">
+                      <label for="">Họ tên <span>*</span></label>
+                      <input type="text" placeholder="Họ tên">
+                    </div>
+                    <div class="form-item">
+                      <label for="">Email <span>*</span></label>
+                      <input type="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button>Gửi bình luận</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="customer-ques">
+            <div class="introduce-left__qa">
+              <div class="question">
+                <div class="question-user">
+                  <abbr title="Lai Tien Duc">LD</abbr>
+                  <span>Lai Tien Duc</span>
+                </div>
+                <div class="question-ques">
+                  <span class="question-ques__star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span class="question-ques__ques">
+                    E co con laptop asus f555l i7. Muin nag cap ssd vs ram . Ad tu van em sv. E la sinh vien kt
+                    eo hep
+                  </span>
+                </div>
+                <div class="question-answer">
+                  <div class="answer">Trả lời</div>
+                  <div class="dot"></div>
+                  <div class="time">2 ngày trước</div>
+                </div>
+              </div>
+
+              <div class="answers">
+                <div class="answers-admin">
+                  <img src="./assets/image/1.jpg" alt="">
+                  <span class="name">Tuanphong.vn</span>
+                  <span class="position">
+                    Quản trị viên
+                  </span>
+                </div>
+                <div class="answers-comment">
+                  Chào anh Dương,</br>
+                  Laptop Dell Inspiron 14 3451 dùng được ổ <a href="" class="link">Ổ cứng SSD 2.5-Inch</a>, anh có
+                  thể gọi Hotline bên em để được tư vấn những sản phẩm phù hợp ạ: <a href="" class="phone"> 0971
+                    881 886</a></br>
+                  Thân gửi đến anh.
+                </div>
+                <div class="question-answer">
+                  <div class="answer">Trả lời</div>
+                  <div class="dot"></div>
+                  <div class="time">2 ngày trước</div>
+                </div>
+              </div>
+              <div class="introduce-left__evaluate question-admin-1">
+                <form action="" class="form">
+                  <div class="form-item">
+                    <label for="">Nội dung <span>*</span></label>
+                    <textarea cols="30" rows="10">Nội dung liên hệ</textarea>
+                  </div>
+                  <div class="form-top">
+                    <div class="form-item">
+                      <label for="">Họ tên <span>*</span></label>
+                      <input type="text" placeholder="Họ tên">
+                    </div>
+                    <div class="form-item">
+                      <label for="">Email <span>*</span></label>
+                      <input type="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button>Gửi bình luận</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="like">
+      <div class="container-ct">
+        <div class="like__list col-ct">
+          <div class="like__title">
+            <span></span>
+            <a href="">Có thể bạn sẽ thích</a>
+            <span></span>
+          </div>
+          <i class="fas fa-angle-left prev-big prev-big-1 animate__animated animate__fadeInLeft"></i>
+          <div class="swiper-container swiper-category-1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide product">
+                <div class="product__img">
+                  <span class="product__img-promotion">
+                    -17%
+                  </span>
+                  <a href="" class="product__img-img"><img src="./assets/images/1.jpg" alt=""></a>
+                  <a href="" class="product__img-btn">Mua ngay</a>
+
+                </div>
+                <div class="product__slide">
+                  <i class="fas fa-angle-left prev-small-1"></i>
+                  <div class="swiper-container swiper__product-1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/2.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/3.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/4.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fas fa-angle-right next-small-1"></i>
+                </div>
+                <div class="product__infor">
+                  <div class="product__infor-title">
+                    <a href="">Adidas NEO Men White</a>
+                  </div>
+                  <div class="product__infor-branch">
+                    <a href="">Adidas</a>
+                  </div>
+                  <div class="product__infor-price">
+                    <span class="price--new">2.100.000₫</span>
+                    <span class="price--old">2.500.000₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide product">
+                <div class="product__img">
+                  <span class="product__img-promotion">
+                    -17%
+                  </span>
+                  <a href="" class="product__img-img"><img src="./assets/images/2.jpg" alt=""></a>
+                  <a href="" class="product__img-btn">Mua ngay</a>
+
+                </div>
+                <div class="product__slide">
+                  <i class="fas fa-angle-left prev-small-2"></i>
+                  <div class="swiper-container swiper__product-2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/2.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/4.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/5.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/4.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fas fa-angle-right next-small-2"></i>
+                </div>
+                <div class="product__infor">
+                  <div class="product__infor-title">
+                    <a href="">Adidas NEO Men White</a>
+                  </div>
+                  <div class="product__infor-branch">
+                    <a href="">Adidas</a>
+                  </div>
+                  <div class="product__infor-price">
+                    <span class="price--new">2.100.000₫</span>
+                    <span class="price--old">2.500.000₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide product">
+                <div class="product__img">
+                  <span class="product__img-promotion">
+                    -17%
+                  </span>
+                  <a href="" class="product__img-img"><img src="./assets/images/5.jpg" alt=""></a>
+                  <a href="" class="product__img-btn">Mua ngay</a>
+
+                </div>
+                <div class="product__slide">
+                  <i class="fas fa-angle-left prev-small-3"></i>
+                  <div class="swiper-container swiper__product-3">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/3.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/4.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/5.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/4.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fas fa-angle-right next-small-3"></i>
+                </div>
+                <div class="product__infor">
+                  <div class="product__infor-title">
+                    <a href="">Adidas NEO Men White</a>
+                  </div>
+                  <div class="product__infor-branch">
+                    <a href="">Adidas</a>
+                  </div>
+                  <div class="product__infor-price">
+                    <span class="price--new">2.100.000₫</span>
+                    <span class="price--old">2.500.000₫</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide product">
+                <div class="product__img">
+                  <span class="product__img-promotion">
+                    -17%
+                  </span>
+                  <a href="" class="product__img-img"><img src="./assets/images/1.jpg" alt=""></a>
+                  <a href="" class="product__img-btn">Mua ngay</a>
+
+                </div>
+                <div class="product__slide">
+                  <i class="fas fa-angle-left prev-small-4"></i>
+                  <div class="swiper-container swiper__product-4">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/2.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/3.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide product__slide-img">
+                        <img src="./assets/images/4.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <i class="fas fa-angle-right next-small-4"></i>
+                </div>
+                <div class="product__infor">
+                  <div class="product__infor-title">
+                    <a href="">Adidas NEO Men White</a>
+                  </div>
+                  <div class="product__infor-branch">
+                    <a href="">Adidas</a>
+                  </div>
+                  <div class="product__infor-price">
+                    <span class="price--new">2.100.000₫</span>
+                    <span class="price--old">2.500.000₫</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-angle-right next-big next-big-1 animate__animated animate__fadeInRight"></i>
+        </div>
+      </div>
+    </div>
+    <div class="email">
+      <div class="container-ct">
+        <div class="row-ct">
+          <h3>Nhập email</h3>
+          <p>Để nhận tin tức khuyến mãi từ cửa hàng của chúng tôi</p>
+          <form action="">
+            <input type="text" placeholder="Nhập email của bạn">
+            <button type="submit">Gửi ngay</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container-ct">
+        <div class="row-ct">
+          <div class="footer__left col-ct">
+            <div class="footer__head">
+              Hệ thống cửa hàng
+            </div>
+            <div class="footer__left-store">
+              <div class="store-name">
+                Sea Shoes Đội Cấn
+              </div>
+              <div class="store-infor">
+                <div class="store-infor-address">
+                  Địa chỉ: 366 Đội Cấn Ba Đình Hà Nội
+                </div>
+                <div class="store-infor-address">
+                  Hotline: <a href="">0123456789</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__left-store">
+              <div class="store-name">
+                Sea Shoes Đội Cấn
+              </div>
+              <div class="store-infor">
+                <div class="store-infor-address">
+                  Địa chỉ: 366 Đội Cấn Ba Đình Hà Nội
+                </div>
+                <div class="store-infor-address">
+                  Hotline: <a href="">0123456789</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__mid col-ct">
+            <div class="footer__mid-menu">
+              <div class="footer__head">
+                Về chúng tôi<i class="fas fa-plus"></i><i class="fas fa-minus"></i>
+              </div>
+              <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Sản phẩm</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="footer__mid-menu">
+              <div class="footer__head">
+                Chính sách<i class="fas fa-plus"></i><i class="fas fa-minus"></i>
+              </div>
+              <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Sản phẩm</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__right col-ct">
+            <div class="footer__head">
+              Đăng kí
+            </div>
+            <div class="footer__right-img">
+              <img src="./assets/images/bocongthuong.png" alt="">
+            </div>
+            <div class="footer__head footer__right-head">
+              Thanh toán
+            </div>
+            <div class="footer__right-img">
+              <img src="./assets/images/payment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer">
+      <div>©Bản quyền thuộc về <a href="">Duclt</a></div>
+      <div>Cung cấp bởi Duclt</div>
+    </div>
+
+    <div class="scroll-to-top animate__animated animate__fadeInDown">
+      <i class="fas fa-angle-up"></i>
+    </div>
+  </div>
+  <script src="./assets/Library-min/Jquery/jquery-3.5.1.min.js"></script>
+  <script src="./assets/Library-min/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/Library-min/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/Library-min/elevatezoom/jquery.elevateZoom-3.0.8.min.js"></script>
+  <script src="./assets/Library-min/Lightbox/js/lc_lightbox.lite.min.js"></script>
+  <script src="./assets/Library-min/Lightbox/AlloyFinger/alloy_finger.min.js"></script>
+  <script src="./assets/js/header.js"></script>
+  <script src="./assets/js/detail.js"></script>
+</body>
+
+</html>
